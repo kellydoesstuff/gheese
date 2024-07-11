@@ -8,24 +8,29 @@ bg_image : "images/backgrounds/blue.png"
 occupations:
 - "Ladue Horton Watkins Highschool"
 - "Community"
-- "Engineering"
+- "Innovation"
 - "Programming"
-- "Robotics"
+- "Strategy"
+- "Engineering"
 
 
 # slider background image loop
 slider_images:
 - "images/slider/worlds_booth.jpg"
 - "images/slider/state_trophy.jpg"
+- "images/slider/troy_ladue.jpg"
+- "images/slider/troy_group.jpg"
+- "images/slider/ladue_award.jpg"
 - "images/slider/potosi.jpg"
 - "images/slider/state_group.jpg"
 
 
+
 # button
 button:
-  enable : false
-  label : "HIRE ME"
-  link : "#contact"
+  enable : true
+  label : "LEARN MORE ABOUT US"
+  link : "#about"
 
 
 # custom style
