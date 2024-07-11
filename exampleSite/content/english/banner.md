@@ -1,24 +1,29 @@
 ---
-title : "I'm Somrat Sorkar"
+title : "69955X Gheese Robotics"
 # full screen navigation
-first_name : "MacGyver"
-last_name : "SOMRAT"
-bg_image : "images/backgrounds/full-nav-bg.jpg"
+first_name : "VRC Team"
+last_name : "Gheese Robotics"
+bg_image : "images/backgrounds/blue.png"
 # animated text loop
 occupations:
-- "Web Developer"
-- "Graphic Designer"
-- "Database Manager"
+- "Ladue Horton Watkins Highschool"
+- "Community"
+- "Engineering"
+- "Programming"
+- "Robotics"
+
 
 # slider background image loop
 slider_images:
-- "images/slider/slider-1.jpg"
-- "images/slider/slider-2.jpg"
-- "images/slider/slider-3.jpg"
+- "images/slider/worlds_booth.jpg"
+- "images/slider/state_trophy.jpg"
+- "images/slider/potosi.jpg"
+- "images/slider/state_group.jpg"
+
 
 # button
 button:
-  enable : true
+  enable : false
   label : "HIRE ME"
   link : "#contact"
 

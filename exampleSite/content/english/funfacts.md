@@ -1,30 +1,30 @@
----
+<!-- ---
 title: ""
 bg_image: "images/backgrounds/funfact-bg.jpg"
 funfacts:
 # funfacts item loop
-- name : "HANDS TO WORK"
+- name : "YEARS ACTIVE"
   image : "images/icons/works.png"
-  count : "100"
+  count : "3"
   
 # funfacts item loop
-- name : "HAPPY CLIENT"
+- name : "REGIONAL AWARDS"
   image : "images/icons/happy.png"
-  count : "200"
+  count : "7"
   
 # funfacts item loop
-- name : "FINISHED PROJECT"
+- name : "STATE QUALIFICATIONS"
   image : "images/icons/project.png"
-  count : "250"
+  count : "2"
   
 # funfacts item loop
-- name : "CUPS OF COFFEE"
+- name : "STATE AWARDS"
   image : "images/icons/coffee.png"
-  count : "150"
+  count : "2"
 
 
 # custom style
 custom_class: "" 
 custom_attributes: "" 
 custom_css: ""
----
+--- -->

@@ -1,29 +1,31 @@
 ---
-title : "SERVICES"
+title : "ACHIEVEMENTS"
 service_list:
 # service item loop
-- name : "Web Development"
-  image : "images/icons/web-development.png"
+- name : "7 REGIONAL AWARDS"
+  image : "images/icons/gateway-arch.png"
   
 # service item loop
-- name : "Graphic Design"
-  image : "images/icons/graphic-design.png"
+- name : "2 STATE AWARDS"
+  image : "images/icons/trophy.png"
   
 # service item loop
-- name : "Database Management"
-  image : "images/icons/dbms.png"
-  
+- name : "2 STATE QUALIFICATIONS"
+  image : "images/icons/missouri.png"
+
 # service item loop
-- name : "Software Development"
-  image : "images/icons/software-development.png"
-  
+- name : ""
+  image : "#"
+
 # service item loop
-- name : "Digital Marketing"
-  image : "images/icons/marketing.png"
+- name : "3 YEARS ACTIVE"
+  image : "images/icons/clock-up-arrow.png"
   
-# service item loop
-- name : "Mobile App Development"
-  image : "images/icons/mobile-app.png"
+
+  
+# # service item loop
+# - name : "Mobile App Development"
+#   image : "images/icons/mobile-app.png"
 
 
 
