@@ -4,9 +4,9 @@
 {{ with .GetPage "banner" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
-  <div class="logo">
+  <!-- <div class="logo">
     <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
-  </div>
+  </div> -->
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
@@ -63,8 +63,8 @@
             <div class="fulscreen-nav">
               <ul class="list-inline fullscreen-nav-holder">
                 {{ range site.Menus.main }}
-                <li><a class="text-uppercase"
-                    href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
+                <li><a class="text-uppercase" 
+                    href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}" >{{ .Name }}</a>
                 </li>
                 {{ end }}
               </ul>
@@ -72,7 +72,7 @@
             <div class="full-nav-icon-holder">
               <ul class="full-nav-icons list-inline">
                 {{ range site.Params.social }}
-                <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}" style="background-color: white; padding: 10px; border-radius: 50%; transition: all 0.3s ease-in-out;"></i></a></li>
                 {{ end }}
               </ul>
             </div>
@@ -235,7 +235,17 @@
           </div>
           {{ end }}
         </div>
+        <h1>
+          <img src = "images/backgrounds/melvin-1.1-ou.png" alt = "Melvin 1.1" width="90%" >
+        </h1>
+        <h1>
+          <img src = "images/backgrounds/melvin-1.1-ou-top.png" alt = "Melvin 1.1 top view" width="90%">
+        </h1>
+        <!-- <h1>
+          <img src = "images/backgrounds/worlds_bot.jpeg" alt = "Worlds Melvin" width="50%">
+        </h1> -->
       </div>
+      
       {{ end }}
       {{ end }}
     </div>
@@ -275,7 +285,7 @@
 <!-- End Services -->
 
 <!-- call to action -->
-{{ with .GetPage "call-to-action" }}
+<!-- {{ with .GetPage "call-to-action" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section id="cta" class="need-service overlay section-sm wow fadeInUp {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s" style="background-image: url('{{ .Params.bg_image | absURL }}');">
   <div class="container position-relative z-index-9">
@@ -288,11 +298,11 @@
     {{ end }}
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- end call to action -->
 
 <!-- Start Portfolio -->
-{{ with .GetPage "portfolio"}}
+<!-- {{ with .GetPage "portfolio"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="portfolio {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="portfolio">
   <div class="container-fluid text-center">
@@ -348,10 +358,10 @@
   </div>
 </section>
 {{ end }}
-<!-- End Portfolio -->
+End Portfolio -->
 
 <!-- Start Testimonials -->
-{{ with .GetPage "testimonial"}}
+<!-- {{ with .GetPage "testimonial"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="testimonials {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="testimonial">
   <div class="container">
@@ -374,11 +384,11 @@
     </div>
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- End Testimonials -->
 
 <!-- funfacts -->
-{{ with .GetPage "funfacts"}}
+<!-- {{ with .GetPage "funfacts"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="wow fadeInUp section-sm {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s">
   <div class="container position-relative z-index-9">
@@ -399,13 +409,13 @@
     </div>
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- end funfacts -->
 
 <!-- Start Contact -->
 {{ with .GetPage "contact"}}
 <style>{{.Params.custom_css | safeCSS}}</style>
-<section class="contact {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} style="background-image: url('{{.Params.bg_image | absURL}}');" id="contact">
+<section class="contact " {{.Params.custom_attributes | safeHTMLAttr}} style="background-image: url('{{.Params.bg_image | absURL}}');" id = "contact" >
   <div class="container">
     <div class="row">
       <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
@@ -438,7 +448,8 @@
         <hr>
         <ul class="footer-icons list-inline">
           {{ range site.Params.social }}
-          <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          <!-- <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li> -->
+          <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}" style="background-color: white; padding: 10px; border-radius: 50%; transition: all 0.3s ease-in-out;"></i></a></li>
           {{ end }}
         </ul>
         <div class="to-top">
